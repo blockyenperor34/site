@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /Error/
+Disallow: /google0182a254a96d5387.html
+Disallow: /Files/
+Disallow: /styles/
+Disallow: /JS/
+Disallow: /backpic1.png
+Disallow: /web.config
+Disallow: /rivetest/

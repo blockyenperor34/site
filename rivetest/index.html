@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>riva test</title>
+        <link href="styles.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1>Hello RIVE!</h1>
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <script src="https://unpkg.com/@rive-app/canvas@1.0.18"></script>
+        <script>
+            const r = new rive.Rive({
+                src: "./logo.riv",
+                // Or the path to a local Rive asset
+                // src: './example.riv',
+                canvas: document.getElementById("canvas"),
+                animations: ["Animation 1"],
+                autoplay: true
+            });
+        </script>
+        
+        <button onclick="r.play(['Animation 1']);">play intro</button>
+        <button onclick="r.play(['Animation 2']);">play spin</button>
+        <button onclick="r.play(['loading']);">play loading</button>
+        <button onclick="r.pause();">pause</button>
+    </body>
+</html>
