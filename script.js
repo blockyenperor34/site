@@ -11,7 +11,7 @@ function getRandomInt(max) {
             document.getElementById('text1').innerText = "Hmmmm is this working?";     
             break;   
         case 3:     
-            document.getElementById('text1').innerText = "I think i just broke something.......";     
+            document.getElementById('text1').innerText = "I think I just broke something.......";     
             break;   
         case 4:     
             document.getElementById('text1').innerText = "What is this owo";     
